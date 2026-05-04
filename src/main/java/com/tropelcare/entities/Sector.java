@@ -1,3 +1,5 @@
+package com.tropelcare.entities;
+
 import jakarta.persistence.*;
 
 import lombok.AllArgsConstructor;
@@ -13,8 +15,10 @@ import java.util.List;
 @Table(name = "sectors", uniqueConstraints = {
         @UniqueConstraint(columnNames = "sectorCode")
 })
-@Getter @Setter
-@NoArgsConstructor @AllArgsConstructor
+@Getter 
+@Setter
+@NoArgsConstructor 
+@AllArgsConstructor
 @Builder
 public class Sector {
 
