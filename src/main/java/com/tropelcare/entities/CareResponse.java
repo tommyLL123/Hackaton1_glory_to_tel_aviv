@@ -1,3 +1,5 @@
+package com.tropelcare.entities;
+
 import jakarta.persistence.*;
 
 import lombok.AllArgsConstructor;
